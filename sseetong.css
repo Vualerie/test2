@@ -1,0 +1,183 @@
+p {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+/* nav bar */
+
+nav {
+  background-color:rgba(204, 62, 192, 0.8);
+  height: auto;
+  width: 100%;
+  position: fixed;
+}
+label.logo {
+  color: #fff;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-family: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 20px;
+}
+
+/* start */
+.wel {
+  width: 100%;
+  height: 100vh;
+  background-image:url("https://images4.alphacoders.com/122/thumb-1920-1224754.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 80px;
+}
+.wel1 {
+  width: 100%;
+  height: 100vh;
+  background-image:url("https://randomc.net/image/Kawaii%20dake%20ja%20Nai%20Shikimori-san/Kawaii%20dake%20ja%20Nai%20Shikimori-san%20-%2001%20-%20Large%2034.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 80px;
+}
+
+/* content */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  margin-top: 15px;
+  text-align: center;
+}
+.cir {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+/* skill */
+
+.bb {
+  background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+  url("https://images8.alphacoders.com/122/thumb-1920-1227914.jpg");
+}
+.bbb {
+  background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+  url("https://randomc.net/image/Kawaii%20dake%20ja%20Nai%20Shikimori-san/Kawaii%20dake%20ja%20Nai%20Shikimori-san%20-%2001%20-%20Large%2029.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.con {
+  margin: 0 auto;
+  padding: 50px 270px;
+  color: white;
+}
+.skill-container{
+  width: 100%;
+  background: #ddd;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.skill {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+} 
+.html {
+  width:50% ;
+  background-color: violet;
+}
+.css {
+  width:45% ;
+  background-color: rgb(93, 62, 217);
+}
+.js {
+  width:10% ;
+  background-color: rgb(63, 196, 232);
+}
+.cc {
+  width:10% ;
+  background-color: rgb(10, 187, 75);
+}
+.val {
+  width: 30% ;
+  background-color: rgb(219, 10, 10);
+}
+/* contact */
+
+.cta {
+  margin: 100px auto;
+  width: 80%;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images8.alphacoders.com/122/thumb-1920-1224757.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+.ctb {
+  margin: 100px auto;
+  width: 80%;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://randomc.net/image/Kawaii%20dake%20ja%20Nai%20Shikimori-san/Kawaii%20dake%20ja%20Nai%20Shikimori-san%20-%2001%20-%20Large%2040.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+.cta h1{
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer h4{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+/* responsive */
+
+@media only screen and (max-width: 760px) {
+  label.logo{
+      font-size: 30px;
+      padding-left:50px;
+  }
+  .wel h1{
+      font-size: 35px;
+  }
+  .cta h1{
+      font-size: 20px 
+  }
+  .con{
+      width: 80%;
+      margin: 0 auto;
+      padding: 50px 80px;
+      text-align: left;
+  }
+
+}
